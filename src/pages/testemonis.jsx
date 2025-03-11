@@ -27,11 +27,11 @@ const Testemones = () =>{
             <div className="rootBody">
                 <Navigation handleclcik={displayMobileNav} />
                 
-                {
+                {/* {
                     !displayNav 
-                    && 
+                    &&  */}
                     <ContactForm />
-                }
+                {/* } */}
                 
             </div>
             {
